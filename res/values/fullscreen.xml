@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<array name="fullscreen">
+<item>@string/name1h</item>
+<item>@string/name2h</item>
+<item>@string/name3h</item>
+<item>@string/name4h</item>
+<item>@string/name5h</item>
+<item>@string/name6h</item>
+<item>@string/name7h</item>
+<item>@string/name8h</item>
+<item>@string/name9h</item>
+<item>@string/name10h</item>
+<item>@string/name11h</item>
+<item>@string/name12h</item>
+<item>@string/name13h</item>
+<item>@string/name14h</item>
+<item>@string/name15h</item>
+<item>@string/name16h</item>
+<item>@string/name17h</item>
+<item>@string/name18h</item>
+<item>@string/name19h</item>
+<item>@string/name20h</item>
+<item>@string/name21h</item>
+<item>@string/name22h</item>
+<item>@string/name23h</item>
+<item>@string/name24h</item>
+<item>@string/name25h</item>
+<item>@string/name26h</item>
+<item>@string/name27h</item>
+<item>@string/name28h</item>
+<item>@string/name29h</item>
+<item>@string/name30h</item>
+</array>
+</resources>

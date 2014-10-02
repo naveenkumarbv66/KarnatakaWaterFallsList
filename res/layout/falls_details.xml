@@ -1,0 +1,67 @@
+<ScrollView 
+      xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/layout2" 
+    >
+
+
+    <RelativeLayout
+           android:layout_width="match_parent"
+    android:layout_height="match_parent"
+                   tools:context=".FallsDetails" >
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true" >
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:src="@drawable/icon14" />
+        
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/linearLayout1"
+        android:layout_marginLeft="22dp"
+        android:layout_marginTop="106dp"
+        android:lineSpacingExtra="2dp"
+        android:text="Small Text"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColorHint="@android:color/primary_text_light_nodisable"
+        android:textSize="20dp"
+        android:textStyle="italic"
+        android:typeface="serif" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textView1"
+        android:layout_marginTop="41dp"
+        android:src="@drawable/mapp" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignRight="@+id/imageView2"
+        android:layout_below="@+id/linearLayout1"
+        android:layout_marginTop="42dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/viewfull" />
+    
+</RelativeLayout>
+</ScrollView>
